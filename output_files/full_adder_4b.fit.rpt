@@ -1,5 +1,5 @@
 Fitter report for full_adder_4b
-Thu May 14 00:15:35 2026
+Thu May 14 00:42:41 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -63,7 +63,7 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Thu May 14 00:15:35 2026           ;
+; Fitter Status                      ; Successful - Thu May 14 00:42:41 2026           ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                      ; full_adder_4b                                   ;
 ; Top-level Entity Name              ; full_adder_4b                                   ;
@@ -155,7 +155,7 @@ on the Quartus Prime software download page.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-10        ;   0.2%      ;
+;     Processors 2-10        ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -1545,7 +1545,7 @@ Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.07 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.06 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
@@ -1554,7 +1554,7 @@ Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Info (144001): Generated suppressed messages file C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/output_files/full_adder_4b.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
     Info: Peak virtual memory: 6247 megabytes
-    Info: Processing ended: Thu May 14 00:15:35 2026
+    Info: Processing ended: Thu May 14 00:42:41 2026
     Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:13
 

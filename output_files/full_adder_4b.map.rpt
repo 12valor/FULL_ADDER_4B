@@ -1,5 +1,5 @@
 Analysis & Synthesis report for full_adder_4b
-Thu May 14 00:15:28 2026
+Thu May 14 00:42:34 2026
 Quartus Prime Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
 
 
@@ -43,7 +43,7 @@ on the Quartus Prime software download page.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu May 14 00:15:28 2026           ;
+; Analysis & Synthesis Status        ; Successful - Thu May 14 00:42:34 2026           ;
 ; Quartus Prime Version              ; 25.1std.0 Build 1129 10/21/2025 SC Lite Edition ;
 ; Revision Name                      ; full_adder_4b                                   ;
 ; Top-level Entity Name              ; full_adder_4b                                   ;
@@ -264,7 +264,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 25.1std.0 Build 1129 10/21/2025 SC Lite Edition
-    Info: Processing started: Thu May 14 00:15:22 2026
+    Info: Processing started: Thu May 14 00:42:28 2026
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off full_adder_4b -c full_adder_4b
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 10 of the 10 processors detected
@@ -273,6 +273,8 @@ Info (12021): Found 4 design units, including 4 entities, in source file full_ad
     Info (12023): Found entity 2: full_adder File: C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b.v Line: 31
     Info (12023): Found entity 3: full_adder_2b File: C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b.v Line: 50
     Info (12023): Found entity 4: full_adder_4b File: C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b.v Line: 74
+Info (12021): Found 1 design units, including 1 entities, in source file full_adder_4b_tb.v
+    Info (12023): Found entity 1: tb_full_adder_4b File: C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b_tb.v Line: 1
 Info (12127): Elaborating entity "full_adder_4b" for the top level hierarchy
 Info (12128): Elaborating entity "half_adder" for hierarchy "half_adder:ha" File: C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b.v Line: 84
 Info (12128): Elaborating entity "full_adder" for hierarchy "full_adder:fa1" File: C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b.v Line: 92
@@ -285,8 +287,8 @@ Info (21057): Implemented 20 device resources after synthesis - the final resour
     Info (21061): Implemented 7 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4809 megabytes
-    Info: Processing ended: Thu May 14 00:15:28 2026
+    Info: Processing ended: Thu May 14 00:42:34 2026
     Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:15
+    Info: Total CPU time (on all processors): 00:00:16
 
 
