@@ -1,0 +1,18 @@
+# Compile of full_adder_4b_tb.v was successful.
+# Compile of full_adder_4b.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of full_adder_4b_tb.v was successful.
+# Compile of full_adder_4b.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_full_adder_4b
+# vsim work.tb_full_adder_4b 
+# Start time: 00:44:18 on May 14,2026
+# Loading work.tb_full_adder_4b
+# Loading work.full_adder_4b
+# Loading work.half_adder
+# Loading work.full_adder
+add wave -position end  sim:/tb_full_adder_4b/a
+add wave -position end  sim:/tb_full_adder_4b/b
+add wave -position end  sim:/tb_full_adder_4b/c
+run -all
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/wave.do
