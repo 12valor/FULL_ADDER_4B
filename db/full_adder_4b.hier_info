@@ -1,0 +1,47 @@
+|full_adder_4b
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+c[0] <= half_adder:ha.sum
+c[1] <= full_adder:fa1.sum
+c[2] <= full_adder:fa2.sum
+c[3] <= full_adder:fa3.sum
+c[4] <= full_adder:fa3.cout
+
+
+|full_adder_4b|half_adder:ha
+a => Decoder0.IN0
+b => Decoder0.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+carry <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|full_adder_4b|full_adder:fa1
+a => Decoder0.IN0
+b => Decoder0.IN1
+cin => Decoder0.IN2
+sum <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|full_adder_4b|full_adder:fa2
+a => Decoder0.IN0
+b => Decoder0.IN1
+cin => Decoder0.IN2
+sum <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|full_adder_4b|full_adder:fa3
+a => Decoder0.IN0
+b => Decoder0.IN1
+cin => Decoder0.IN2
+sum <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
