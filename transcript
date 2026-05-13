@@ -16,3 +16,5 @@ add wave -position end  sim:/tb_full_adder_4b/b
 add wave -position end  sim:/tb_full_adder_4b/c
 run -all
 write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/wave.do
+# End time: 00:46:10 on May 14,2026, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 7

@@ -1,0 +1,19 @@
+C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b.v {1 {vlog -work work -stats=none C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module half_adder
+-- Compiling module full_adder
+-- Compiling module full_adder_2b
+-- Compiling module full_adder_4b
+
+Top level modules:
+	full_adder_2b
+	full_adder_4b
+
+} {} {}} C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b_tb.v {1 {vlog -work work -stats=none C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_full_adder_4b
+
+Top level modules:
+	tb_full_adder_4b
+
+} {} {}}
