@@ -4,10 +4,10 @@ add wave -noupdate -radix unsigned /tb_full_adder_4b/a
 add wave -noupdate -radix unsigned /tb_full_adder_4b/b
 add wave -noupdate -radix unsigned /tb_full_adder_4b/c
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {230 ps} 0}
+WaveRestoreCursors {{Cursor 1} {22 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
-configure wave -valuecolwidth 498
+configure wave -valuecolwidth 100
 configure wave -justifyvalue left
 configure wave -signalnamewidth 0
 configure wave -snapdistance 10
@@ -20,4 +20,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {222 ps} {241 ps}
+WaveRestoreZoom {0 ps} {24 ps}
