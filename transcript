@@ -1,0 +1,21 @@
+# Compile of full_adder_4b_tb.v was successful.
+# Compile of full_adder_4b.v was successful.
+# Compile of tb_full_subtractor_4b.v was successful.
+# Compile of FULL_SUBTRACTOR_4B.v was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of full_adder_4b_tb.v was successful.
+# Compile of full_adder_4b.v was successful.
+# Compile of tb_full_subtractor_4b.v was successful.
+# Compile of FULL_SUBTRACTOR_4B.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.tb_full_subtractor_4b
+# vsim work.tb_full_subtractor_4b 
+# Start time: 23:42:15 on May 17,2026
+# Loading work.tb_full_subtractor_4b
+# ** Error: (vsim-3033) Instantiation of 'full_subtractor_4b' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_full_subtractor_4b File: C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/tb_full_subtractor_4b.v Line: 5
+#         Searched libraries:
+#             C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/work
+# Error loading design
+# End time: 23:42:16 on May 17,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 5

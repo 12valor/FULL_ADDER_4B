@@ -10,7 +10,7 @@ z2
 cModel Technology
 dC:/Users/evang/Downloads/FPGA_demo/T09/full_adder_2b
 vfull_adder
-Z0 !s110 1778690652
+Z0 !s110 1779032534
 !i10b 1
 !s100 H6N27@3^X;I46Q^FJ0S881
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,18 +20,18 @@ Z3 dC:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b
 Z4 w1778688922
 Z5 8C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b.v
 Z6 FC:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b.v
-!i122 3
+!i122 9
 L0 31 18
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1778690652.000000
-!s107 C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b.v|
-Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b.v|
+Z8 !s108 1779032534.000000
+Z9 !s107 C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b.v|
 !i113 1
-Z10 o-work work
-Z11 tCvgOpt 0
+Z11 o-work work
+Z12 tCvgOpt 0
 vfull_adder_2b
 R0
 !i10b 1
@@ -43,18 +43,18 @@ R3
 R4
 R5
 R6
-!i122 3
+!i122 9
 L0 50 23
 R7
 r1
 !s85 0
 31
 R8
-Z12 !s107 C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b.v|
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
 vfull_adder_4b
 R0
 !i10b 1
@@ -66,18 +66,90 @@ R3
 R4
 R5
 R6
-!i122 3
+!i122 9
 L0 74 37
 R7
 r1
 !s85 0
 31
 R8
-R12
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
+vFULL_SUBTRACTOR
+R0
+!i10b 1
+!s100 ]o1OEge_D95XBL6ONi^zY1
+R1
+I`OdG`3M;<PEdUh4RioDEn1
+R2
+R3
+Z13 w1779032133
+Z14 8C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/FULL_SUBTRACTOR_4B.v
+Z15 FC:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/FULL_SUBTRACTOR_4B.v
+!i122 11
+L0 16 18
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/FULL_SUBTRACTOR_4B.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/FULL_SUBTRACTOR_4B.v|
+!i113 1
+R11
+R12
+n@f@u@l@l_@s@u@b@t@r@a@c@t@o@r
+vFULL_SUBTRACTOR_2B
+R0
+!i10b 1
+!s100 jAoUlz=PL^R7`1JaCl4J?3
+R1
+Ih4<]3SCQ_DKPh5:<^dfQh1
+R2
+R3
+R13
+R14
+R15
+!i122 11
+L0 35 22
+R7
+r1
+!s85 0
+31
+R8
+Z17 !s107 C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/FULL_SUBTRACTOR_4B.v|
+R16
+!i113 1
+R11
+R12
+n@f@u@l@l_@s@u@b@t@r@a@c@t@o@r_2@b
+vFULL_SUBTRACTOR_4B
+R0
+!i10b 1
+!s100 a0APaRElNOfF:R6_Z7AXh0
+R1
+I4f>[>ldFgkQS3L:G25FO40
+R2
+R3
+R13
+R14
+R15
+!i122 11
+L0 58 37
+R7
+r1
+!s85 0
+31
+R8
+R17
+R16
+!i113 1
+R11
+R12
+n@f@u@l@l_@s@u@b@t@r@a@c@t@o@r_4@b
 vhalf_adder
 R0
 !i10b 1
@@ -89,18 +161,42 @@ R3
 R4
 R5
 R6
-!i122 3
+!i122 9
 L0 16 14
 R7
 r1
 !s85 0
 31
 R8
-R12
 R9
-!i113 1
 R10
+!i113 1
 R11
+R12
+vHALF_SUBTRACTOR
+R0
+!i10b 1
+!s100 QT<KSCBfc_1`iUM9YAPAd3
+R1
+I:LVQUcjmQEgjIQ[j7Z<@61
+R2
+R3
+R13
+R14
+R15
+!i122 11
+L0 1 14
+R7
+r1
+!s85 0
+31
+R8
+R17
+R16
+!i113 1
+R11
+R12
+n@h@a@l@f_@s@u@b@t@r@a@c@t@o@r
 vtb_full_adder_4b
 R0
 !i10b 1
@@ -112,8 +208,8 @@ R3
 w1778690545
 8C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b_tb.v
 FC:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b_tb.v
-!i122 2
-L0 1 26
+!i122 8
+Z18 L0 1 26
 R7
 r1
 !s85 0
@@ -122,5 +218,28 @@ R8
 !s107 C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/evang/Downloads/FPGA_demo/T09/full_adder_4b/full_adder_4b_tb.v|
 !i113 1
-R10
 R11
+R12
+vtb_full_subtractor_4b
+R0
+!i10b 1
+!s100 4Tk05k;2SRUzW;A`5e6:f0
+R1
+I3FX?6WQ1;AN6YR_CYf4A90
+R2
+R3
+w1779032242
+8C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/tb_full_subtractor_4b.v
+FC:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/tb_full_subtractor_4b.v
+!i122 10
+R18
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/tb_full_subtractor_4b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/evang/Downloads/FPGA_demo/T09/prac_fs/tb_full_subtractor_4b.v|
+!i113 1
+R11
+R12
